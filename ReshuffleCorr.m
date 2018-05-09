@@ -9,7 +9,7 @@ function [Tx,X,Xconf]=ReshuffleCorr(T, D1, D2, N, conf)
   % -T        -- time vector (shared between D1 & D2).
   % -D1       -- first data vector.
   % -D2       -- second data vector.
-  % -count    -- number of surrogates computed during reshuffling test.
+  % -N        -- number of surrogates computed during reshuffling test.
   % -conf     -- vector of confidence intervals to test (between 0-1).
   %
   % NOTES:
@@ -17,7 +17,7 @@ function [Tx,X,Xconf]=ReshuffleCorr(T, D1, D2, N, conf)
   %  - D1 and D2 must share the same time axis, T.
   %  - This code assumes that D1 and D2 are vectors of real numbers.
   %  - negative lag means D1 arrives before D2.
-  %  - confidence intervals require a sufficient number of surrogates.
+  %  - confidence intervals require a sufficient number of surrogates, N.
   %
   % We kindly ask that if the user finds the use of this code beneficial 
   % that a citation to this code is included in their work:
