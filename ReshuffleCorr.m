@@ -12,6 +12,11 @@ function [Tx,X,Xconf]=ReshuffleCorr(T, D1, D2, N, conf)
   % -N        -- number of surrogates computed during reshuffling test.
   % -conf     -- vector of confidence intervals to test (between 0-1).
   %
+  % Output data:
+  % -Tx       -- Cross-correlation time vector.
+  % -X        -- Cross-correlation amplitude vector.
+  % -Xconf    -- Set of confidence vectors corresponding to conf input.
+  %
   % NOTES:
   %  - T is assumed to have uniform spacing.
   %  - D1 and D2 must share the same time axis, T.
