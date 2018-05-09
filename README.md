@@ -2,7 +2,7 @@
 
 We present a Matlab-based routine, ReshuffleCorr that performs the cross-correlation and statistical reshuffling tests to discern the statistical significance of associations between datasets.  This code could be readily adapted or modified for a broad range of geophysical applications.
 
-For sample use see "Fig2.m" to recreate the second figure within the corresponding manuscript (Schultz & Telesca, 2017).
+For sample use see "Fig2.m" to recreate the second figure within the corresponding manuscript (Schultz & Telesca, 2018).
 
 References: 
             
