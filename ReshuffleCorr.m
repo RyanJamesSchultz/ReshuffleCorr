@@ -21,8 +21,10 @@ function [Tx,X,Xconf]=ReshuffleCorr(T, D1, D2, N, conf)
   %
   % We kindly ask that if the user finds the use of this code beneficial 
   % that a citation to this code is included in their work:
+  %
   % Schultz, R., & Telesca, L. (2017). The Cross-Correlation and 
-  % Reshuffling Tests in Discerning Induced Seismicity, [In preparation].
+  % Reshuffling Tests in Discerning Induced Seismicity, Pure and Applied 
+  % Geophysics, doi: 10.1007/s00024-018-1890-1.
   %
   % See the above paper and references therein for examples of the
   % implementation of this code.
